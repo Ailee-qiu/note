@@ -10,6 +10,10 @@
 npx create-react-app react-app-name
 cd react-app-name
 yarn start/npm start
+
+npm start //执行的是.env.development
+
+npm run build//执行的是.env.development
 ````
 
 2.Vite创建React项目
