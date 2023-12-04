@@ -1,5 +1,15 @@
 ### forwardRef和useImperativeHandle
 
+>`forwardRef` 允许组件使用 [ref](https://react.docschina.org/learn/manipulating-the-dom-with-refs) 将 DOM 节点暴露给父组件。
+>
+>- 参考
+>  - [`forwardRef(render)`](https://react.docschina.org/reference/react/forwardRef#forwardref)
+>  - [`render` 函数](https://react.docschina.org/reference/react/forwardRef#render-function)
+>- 用法
+>  - [将 DOM 节点暴露给父组件](https://react.docschina.org/reference/react/forwardRef#exposing-a-dom-node-to-the-parent-component)
+>  - [在多个组件中转发 ref](https://react.docschina.org/reference/react/forwardRef#forwarding-a-ref-through-multiple-components)
+>  - 暴露命令式句柄而非 DOM 节点
+
 >https://segmentfault.com/a/1190000042532257
 
 >`useImperativeHandle`是React的一个自定义钩子函数，它用于向父组件暴露子组件实例上的特定方法。它允许你在函数组件中定义并暴露一个或多个方法，使得父组件可以通过ref访问到这些方法。

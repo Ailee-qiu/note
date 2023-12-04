@@ -27,7 +27,7 @@ function MyComponent() {
 
 ````
 
-2.保存和访问之前的值：`useRef` 的引用对象可以在组件的多次渲染之间保持不变，因此可以用来保存和访问之前的值。
+2.保存和访问之前的值：`useRef` 的引用对象可以在组件的多次渲染之间保持不变，因此可以用来保存和访问之前的值。改变 ref 不会触发重新渲染，所以 ref 不适合用于存储期望显示在屏幕上的信息
 
 ```jsx
 import React, { useState, useRef } from 'react';
